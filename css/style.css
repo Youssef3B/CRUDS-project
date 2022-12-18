@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #1B2631 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shop{
+    width: 50%;
+    margin: auto;
+    color: aliceblue;
+    
+    
+}
+.shop .header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    padding-left: 10px;
+   
+}
+input:focus{
+    background-color: #E5E7E9  ;
+    transform: scale(1.1);
+    border: none;
+}
+#total{
+    background-color: #E74C3C;
+    padding: 6px 2px;
+}
+#total::before{
+    content: 'Totale :';
+}
+    
+
+button {
+    background: #F1C40F ;
+    width: 101%;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    color: aliceblue;
+    font-size: medium;
+    cursor: pointer;
+    transition: 1s;
+    
+    
+    
+}
+button:hover{
+    background: #D4AC0D ;
+    letter-spacing: 4px;
+}
+.searchbutton{
+    
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+.searchbutton button{
+    width: 45%;
+    border-radius: 10px;
+}
+
+
+
+
+.shop .types .price input{
+    width: 20%;
+}
+#total{
+    color: aliceblue;
+    font-size: medium;
+}
+table{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center
+}
+td{
+    padding: 5px;
+}
+
